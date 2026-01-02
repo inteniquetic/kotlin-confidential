@@ -1,0 +1,19 @@
+package: com.inteniquetic.kotlinobfuscation.example.config
+visibility: internal
+defaultNamespace: create obfuscationConfiguration2
+
+algorithm:
+  - xor using prng
+  - split
+  - rotate left 3
+  - encrypt using chacha20-poly
+  - shuffle
+
+secrets:
+  - name: apiKey
+    value: "abcd-1234"
+  - name: suspiciousDynamicLibraries
+    value:
+      - Substrate
+      - Substitute
+      - FridaGadget
