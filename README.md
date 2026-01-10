@@ -67,6 +67,14 @@ secrets:
       - List3
 ```
 
+## Install confctl
+
+```sh
+brew update
+brew tap prongbang/homebrew-formulae
+brew install confctl
+```
+
 ## Run
 
 ```shell
